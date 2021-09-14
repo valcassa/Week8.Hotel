@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-commerce", "E-commerce\E-commerce.csproj", "{FC56E06D-33C7-4C42-8F42-CAB54A8492E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abbigliamento", "Abbigliamento", "{C72116BB-EDB0-46B0-9C07-9D0A0E150B46}"
+	ProjectSection(SolutionItems) = preProject
+		E-commerce\AbbigliamentoList.cs = E-commerce\AbbigliamentoList.cs
+		E-commerce\ProdottiAbbigliamento.cs = E-commerce\ProdottiAbbigliamento.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elettronica", "Elettronica", "{CC77EA47-FF37-4CA3-8CFC-A08C6B1EF8EB}"
+	ProjectSection(SolutionItems) = preProject
+		E-commerce\ElettronicaList.cs = E-commerce\ElettronicaList.cs
+		E-commerce\ProdottiElettronica.cs = E-commerce\ProdottiElettronica.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProdottiAlimentari", "ProdottiAlimentari", "{7562CF67-0845-4E1E-8D95-CD7D77899CFF}"
+	ProjectSection(SolutionItems) = preProject
+		E-commerce\AlimentariList.cs = E-commerce\AlimentariList.cs
+		E-commerce\ProdottiAlimentari.cs = E-commerce\ProdottiAlimentari.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Program", "Program", "{A8B81DA2-A99F-4F39-9148-6108A8CD00E4}"
+	ProjectSection(SolutionItems) = preProject
+		E-commerce\Prodotti.cs = E-commerce\Prodotti.cs
+		E-commerce\ProdRep.cs = E-commerce\ProdRep.cs
+		E-commerce\Program.cs = E-commerce\Program.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC56E06D-33C7-4C42-8F42-CAB54A8492E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC56E06D-33C7-4C42-8F42-CAB54A8492E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC56E06D-33C7-4C42-8F42-CAB54A8492E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC56E06D-33C7-4C42-8F42-CAB54A8492E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7DFA526-7D53-4510-B215-8E1292CF480B}
+	EndGlobalSection
+EndGlobal
