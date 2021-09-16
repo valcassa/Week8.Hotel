@@ -4,17 +4,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{79E22575-AB6F-4C4F-9732-E33D7D42F842}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Javascript", "Javascript", "{F4C2EEBA-19DA-45A1-860D-0B4E36674C3E}"
+	ProjectSection(SolutionItems) = preProject
+		Javascript.js = Javascript.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{CF15891C-9AE0-4B17-A78C-AA0A59E181FC}"
 	ProjectSection(SolutionItems) = preProject
 		CamereHotel.html = CamereHotel.html
 		ContattiHotel.html = ContattiHotel.html
-		PrenotaHotel.html = PrenotaHotel.html
-		StyleSheet.css = StyleSheet.css
 		Home.html = Home.html
+		PrenotaHotel.html = PrenotaHotel.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{5170DCB5-4537-4077-B5E2-33324B50A977}"
+	ProjectSection(SolutionItems) = preProject
+		StyleSheet.css = StyleSheet.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Login", "Login", "{FC77E9B9-69F2-4718-A8BA-8B1CDD328FA4}"
+	ProjectSection(SolutionItems) = preProject
+		Login.html = Login.html
+		Login.js = Login.js
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4C2EEBA-19DA-45A1-860D-0B4E36674C3E} = {79E22575-AB6F-4C4F-9732-E33D7D42F842}
+		{CF15891C-9AE0-4B17-A78C-AA0A59E181FC} = {79E22575-AB6F-4C4F-9732-E33D7D42F842}
+		{5170DCB5-4537-4077-B5E2-33324B50A977} = {79E22575-AB6F-4C4F-9732-E33D7D42F842}
+		{FC77E9B9-69F2-4718-A8BA-8B1CDD328FA4} = {79E22575-AB6F-4C4F-9732-E33D7D42F842}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DE3A8948-9183-4327-AF21-F75E47A48DD7}

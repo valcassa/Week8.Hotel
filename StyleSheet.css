@@ -155,22 +155,14 @@ textarea {
         color: saddlebrown;
         font-family: 'Times New Roman';
         float: right;
-        max-width: 50%;
-    }
-
-    h2 {
-        color: saddlebrown;
-        font-family: 'Times New Roman';
-        font-size: 20px;
-        float: right;
-        max-width: 50%;
-    }
+        max-width: 100px;
+    } 
 
     h3 {
         color: saddlebrown;
         font-family: 'Times New Roman';
         font-size: 20px;
         float: left;
-        max-width: 50%;
+        max-width: 200px;
     }
 }

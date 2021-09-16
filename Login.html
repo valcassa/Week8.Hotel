@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+
+    <script>
+        alert("Benvenuto");
+    </script>
+
+
+    <script defer src="Login.js"></script>
+</head>
+
+<body onload="checkLoggedUser()">
+    <main id="user">
+        <h3>Login</h3>
+        <br /><br />
+
+        <form onsubmit=" save();" id="loginForm" ; hideForm();>
+            <input type="text" name="username" id="username" placeholder="Username" onchange="change()" required />
+            <input type="password" name="password" id="password" placeholder="Password" onchange="change()" required />
+            <label>
+                <input type="checkbox" value="remember" name="remember"> Ricordami
+            </label>
+            <input type="submit" value="Accedi" disabled>
+        </form>
+        <button id="logOutButton" type="button" style="display:none" onclick="logOut()">Logout</button>
+    </main>
+</body>
+</html>
